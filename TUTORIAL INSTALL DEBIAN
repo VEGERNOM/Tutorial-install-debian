@@ -1,0 +1,20 @@
+ini sekedar tutorial install debian dekstop
+
+BAHAN:
+ZERO TERMUX
+BVNC VIEWR
+
+paste di zero termux:
+
+pkg install wget 
+wget https://raw.githubusercontent.com/wahasa/Debian/main/Install/debian.sh ; chmod +x debian.sh ; bash debian.sh
+
+ketik debian
+
+paste yang ke 2 setelah ketik debian
+
+apt update
+apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Debian/main/Desktop/de-xfce.sh ; chmod +x de-xfce.sh ; ./de-xfce.sh
+
+
+selamat mencoba
